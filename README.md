@@ -5,7 +5,7 @@ Implementation of **Linear Regression** and **Logistic Regression** built from s
 ## Models
 - **Linear Regression** — Predicts continuous values using Gradient Descent
 - **Logistic Regression** — Predicts binary classes using Sigmoid function
-
+- ** Polynomial Regression** - Helps to predict the values by ploting a Polynomial function 
 ## Technologies
 - Python 3.x
 - NumPy
@@ -14,6 +14,7 @@ Implementation of **Linear Regression** and **Logistic Regression** built from s
 ```bash
 python Linear_Regression.py
 python Logestic_regression.py
+python Polynomial_Regression.py
 ```
 
 ## What I Learned
