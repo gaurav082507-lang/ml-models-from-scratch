@@ -17,7 +17,8 @@ for i in range(0,500000):
     b = b - (alpha/m) * np.sum(error)
 
     if(i%10000==0):
-        cost=(1/(2*m))*(np.sum((f-y)**2))
+        f_wb = 1 / (1 + np.exp(-(x1_norm*w + b)))
+        cost = -np.mean(y * np.log(f_wb) + (1 - y) * np.log(1 - f_wb))
         print(f"Iteration : {i} |Cost : {cost:2f} | w :{w:2f}| b :{b:2f}")
 #------------------Plot--------------------------------------------------------------
 print(f"Emails Above length {round((-b/w)*np.std(x)+np.mean(x))} are spam")
