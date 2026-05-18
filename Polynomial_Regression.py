@@ -1,4 +1,3 @@
-#! C:\Users\gaura\OneDrive\Desktop\Python\myenv\Scripts\python.exe
 import numpy as np
 import matplotlib.pyplot as plt
 np.random.seed(42)
